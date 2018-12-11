@@ -158,9 +158,7 @@ li a:hover + .nav-effect {
 @media (max-width: 615px) {
   #project .project-gallery {
     height: 120px;
-    width: 213px; }
-  footer i {
-    color: red; } }
+    width: 213px; } }
 
 #technical .tech-container {
   width: 100%;
