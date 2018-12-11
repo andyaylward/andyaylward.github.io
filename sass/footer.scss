@@ -1,0 +1,45 @@
+footer {
+    color: white;
+    width: 100%;
+    height: 10vH;
+    min-height: 110px;
+    background-color: #333;
+
+    i {
+        color: white;
+        transition: .2s;
+        font-size: 48px;
+
+        &:hover {
+            transition: .2s;
+        }
+    }
+
+    .author {
+        transition: .2s;
+    }
+
+    .fa-github-square:hover {
+        color: #6e5494;
+    }
+
+    .fa-linkedin:hover {
+        color: #0077b5;
+    }
+}
+
+@media (max-width: 615px) {
+    footer{
+        i {
+            font-size: 32px;
+            transition: .2s;
+        }
+        div {
+            margin: 0px;
+        }
+        .author {
+            font-size: 12px;
+            transition: .2s;
+        }
+    }
+}

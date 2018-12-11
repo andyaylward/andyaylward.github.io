@@ -1,0 +1,50 @@
+// GENERAL
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    opacity:0;
+    transition: 1s;
+    transform: translate(0, -150px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 10%;
+    padding: 0px;
+}
+
+li {
+    overflow: hidden;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 200;
+}
+
+main {
+    overflow: hidden;
+    padding: 0px 10%;
+}
+
+@media (max-width: 767px){
+    main {
+        padding: 0px 2%;
+    }
+
+    nav {
+        ul {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    #about {
+        .content {
+            text-align: center;
+        }
+    }
+}

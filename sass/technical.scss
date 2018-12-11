@@ -1,0 +1,116 @@
+// TECHNICAL SKILLS
+#technical {
+    .tech-container {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    h2 {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 120px;
+        z-index: 10;
+    }
+
+    .circle {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        // background-color: pink;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: 5;
+
+        div {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-size: cover;
+        }
+    }
+
+    .html-img {
+        background-image: url('../imgs/html.png');
+        margin: auto;
+        top: -25px;
+        left: 0;
+        right: 0;
+    }
+
+    .ps-img{
+        background-image: url('../imgs/ps.png');   
+        left: 10px;
+        top: 25px;
+    }
+
+    .placeholder3{
+        background-image: url('../imgs/ai.png'); 
+        left: 240px;
+        top: 25px;
+    }
+
+    .css-img{
+        background-image: url('../imgs/css.png');
+        left: -25px;
+        top: 40%;
+    }
+
+    .js-img{
+        background-image: url('../imgs/js.png');
+        left: 275px;
+        top: 40%;
+
+        &:hover {
+            animation-name: floating;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-duration: 4s;
+        }
+    }
+
+    .jq-img{
+        background-image: url('../imgs/jq.png');
+        left: 10px;
+        top: 70%;
+    }
+    .wp-img{
+        background-image: url('../imgs/wp.png');
+        left: 240px;
+        top: 70%;
+    }
+    .php-img{
+        background-image: url('../imgs/php.png');
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -25px;
+    }
+
+    .html-img, .ps-img, .placeholder3, .css-img, .js-img, .php-img, .wp-img, .jq-img {
+        &:hover {
+            animation-name: floating;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-duration: 4s;
+        }
+    }
+}
+
+@keyframes floating {
+	// 25% {
+    //     transform: translate(0%,10%);	
+    //     transform: scale(1.1);
+	// }		
+	50% {	
+        transform: scale(1.1);
+	}		
+	// 75% {
+	// 	transform: translate(0%,-10%);	
+	// }			
+}
