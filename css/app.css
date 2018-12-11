@@ -31,6 +31,12 @@ main {
   #about .content {
     text-align: center; } }
 
+@media (max-width: 360px) {
+  body {
+    opacity: 1;
+    transition: 1s;
+    transform: translate(0, 0px); } }
+
 .banner {
   height: 70vH;
   min-height: 315px;

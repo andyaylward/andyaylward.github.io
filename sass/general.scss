@@ -48,3 +48,11 @@ main {
         }
     }
 }
+
+@media (max-width: 360px){
+    body {
+        opacity:1;
+        transition: 1s;
+        transform: translate(0, 0px);
+    }
+}
