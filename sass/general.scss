@@ -55,4 +55,10 @@ main {
         transition: 1s;
         transform: translate(0px, 0px);
     }
+
+    header{
+        em {
+            display: none;
+        }
+    }
 }

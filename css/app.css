@@ -35,7 +35,9 @@ main {
   body {
     opacity: 1;
     transition: 1s;
-    transform: translate(0px, 0px); } }
+    transform: translate(0px, 0px); }
+  header em {
+    display: none; } }
 
 .banner {
   height: 70vH;
