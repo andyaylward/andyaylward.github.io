@@ -11,6 +11,17 @@
     .content {
         padding-top: 120px;
         color: white;
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: .2s;
+        }
+
+        a:hover {
+            letter-spacing: .5px;
+            transition: .2s;
+        }
     }
 
     h1 {

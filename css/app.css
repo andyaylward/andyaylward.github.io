@@ -32,10 +32,6 @@ main {
     text-align: center; } }
 
 @media (max-width: 360px) {
-  body {
-    opacity: 1;
-    transition: 1s;
-    transform: translate(0px, 0px); }
   header em {
     display: none; } }
 
@@ -49,6 +45,13 @@ main {
   .banner .content {
     padding-top: 120px;
     color: white; }
+    .banner .content a {
+      text-decoration: none;
+      color: white;
+      transition: .2s; }
+    .banner .content a:hover {
+      letter-spacing: .5px;
+      transition: .2s; }
   .banner h1 {
     font-size: 60px;
     font-family: 'Quicksand', sans-serif; }
@@ -273,6 +276,8 @@ footer {
       transition: .2s; }
   footer .author {
     transition: .2s; }
+    footer .author a {
+      color: white; }
   footer .fa-github-square:hover {
     color: #6e5494; }
   footer .fa-linkedin:hover {

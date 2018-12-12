@@ -17,6 +17,10 @@ footer {
 
     .author {
         transition: .2s;
+
+        a {
+            color: white;
+        }
     }
 
     .fa-github-square:hover {
