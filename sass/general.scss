@@ -49,13 +49,15 @@ main {
     }
 }
 
-@media (max-width: 360px){
-    // body {
-    //     opacity:1;
-    //     transition: 1s;
-    //     transform: translate(0px, 0px);
-    // }
+@media (max-width: 415px){
+    body {
+        opacity:1;
+        transition: 1s;
+        transform: translate(0px, 0px);
+    }
+}
 
+@media (max-width: 360px){
     header{
         em {
             display: none;
