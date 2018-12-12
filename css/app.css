@@ -179,91 +179,216 @@ li a:hover + .nav-effect {
 
 #technical .tech-container {
   width: 100%;
-  height: 300px;
+  height: 500px;
   position: relative;
   overflow: hidden; }
 
-#technical h2 {
+#technical h1 {
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: 120px;
+  top: 40%;
   z-index: 10; }
 
 #technical .circle {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  z-index: 5; }
-  #technical .circle div {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    background-size: cover; }
-
-#technical .html-img {
-  background-image: url("../imgs/html.png");
-  margin: auto;
-  top: -25px;
-  left: 0;
-  right: 0; }
-
-#technical .ps-img {
-  background-image: url("../imgs/ps.png");
-  left: 10px;
-  top: 25px; }
-
-#technical .placeholder3 {
-  background-image: url("../imgs/ai.png");
-  left: 240px;
-  top: 25px; }
-
-#technical .css-img {
-  background-image: url("../imgs/css.png");
-  left: -25px;
-  top: 40%; }
-
-#technical .js-img {
-  background-image: url("../imgs/js.png");
-  left: 275px;
-  top: 40%; }
-  #technical .js-img:hover {
-    animation-name: floating;
+  width: 95%; }
+  #technical .circle .techLogo {
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-duration: 4s; }
+    animation-timing-function: ease-in-out; }
 
-#technical .jq-img {
-  background-image: url("../imgs/jq.png");
-  left: 10px;
-  top: 70%; }
+.html-img, .css-img, .js-img {
+  width: 130px;
+  height: 138px;
+  position: absolute;
+  background-size: cover;
+  animation-duration: 5s; }
 
-#technical .wp-img {
+.ps-img, .wp-img {
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  background-size: cover;
+  animation-duration: 5s; }
+
+.jq-img, .php-img {
+  width: 95px;
+  height: 107px;
+  position: absolute;
+  background-size: cover;
+  animation-duration: 5.5s; }
+
+.bs-img {
+  width: 135px;
+  height: 110px;
+  position: absolute;
+  background-size: cover;
+  animation-duration: 4.5s; }
+
+.html-img {
+  background-image: url("../imgs/html.png");
+  top: 10%;
+  left: 10%;
+  animation-name: floating; }
+
+.css-img {
+  background-image: url("../imgs/css.png");
+  left: 48%;
+  top: 70%;
+  animation-name: floating2; }
+
+.js-img {
+  background-image: url("../imgs/js.png");
+  left: 57.5%;
+  top: 5%;
+  animation-name: floating3; }
+
+.ps-img {
+  background-image: url("../imgs/ps.png");
+  right: 15%;
+  bottom: 15%;
+  animation-name: floating4; }
+
+.wp-img {
   background-image: url("../imgs/wp.png");
-  left: 240px;
-  top: 70%; }
+  left: 5%;
+  top: 60%;
+  animation-name: floating5; }
 
-#technical .php-img {
+.jq-img {
+  background-image: url("../imgs/jq.png");
+  right: 10%;
+  top: 20%;
+  animation-name: floating6; }
+
+.php-img {
   background-image: url("../imgs/php.png");
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: -25px; }
+  left: 25%;
+  bottom: 5%;
+  animation-name: floating7; }
 
-#technical .html-img:hover, #technical .ps-img:hover, #technical .placeholder3:hover, #technical .css-img:hover, #technical .js-img:hover, #technical .php-img:hover, #technical .wp-img:hover, #technical .jq-img:hover {
-  animation-name: floating;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-duration: 4s; }
+.bs-img {
+  background-image: url("../imgs/bs.png");
+  left: 33%;
+  top: 7%;
+  animation-name: floating8; }
+
+@media (max-width: 1080px) {
+  .technical .tech-container .circle .html-img {
+    height: 10px;
+    width: 10px; } }
 
 @keyframes floating {
-  50% {
-    transform: scale(1.1); } }
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(2px, 1px); }
+  40% {
+    transform: translate(2px, 2px); }
+  60% {
+    transform: translate(1px, 2px); }
+  80% {
+    transform: translate(2px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating2 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(1px, 1px); }
+  40% {
+    transform: translate(2px, 2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  80% {
+    transform: translate(2px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating3 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(2px, 2px); }
+  40% {
+    transform: translate(2px, 2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  80% {
+    transform: translate(2px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating4 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(2px, 1px); }
+  40% {
+    transform: translate(2px, 2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  80% {
+    transform: translate(1px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating5 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(1px, 1px); }
+  40% {
+    transform: translate(1px, 1px); }
+  60% {
+    transform: translate(1px, 1px); }
+  80% {
+    transform: translate(1px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating6 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(1px, 2px); }
+  40% {
+    transform: translate(1px, 2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  80% {
+    transform: translate(1px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating7 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(2px, 1px); }
+  40% {
+    transform: translate(1px, 2px); }
+  60% {
+    transform: translate(2px, 1px); }
+  80% {
+    transform: translate(1px, 2px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating8 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(2px, 2px); }
+  40% {
+    transform: translate(1px, 1px); }
+  60% {
+    transform: translate(1px, 1px); }
+  80% {
+    transform: translate(1px, 1px); }
+  100% {
+    transform: translate(0px, 0px); } }
 
 #contact h1 {
   color: black; }
