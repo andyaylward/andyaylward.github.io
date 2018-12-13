@@ -5,75 +5,85 @@
         height: 500px;
         position: relative;
         overflow: hidden;
-    }
 
-    h1 {
-        position: absolute;
-        margin: auto;
-        left: 0;
-        right: 0;
-        top: 40%;
-        z-index: 10;
-    }
-
-    .circle {
-        width: 95%;
-
-        .techLogo {
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out;
-        }
-
-        .html-img, .css-img, .js-img {
-            width: 130px;
-            height: 138px;
+        h1 {
             position: absolute;
-            background-size: cover;
-            animation-duration: 5s;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 40%;
+            z-index: 10;
         }
 
-        .ps-img, .wp-img {
-            width: 116px;
-            height: 116px;
+        #techContent {
+            opacity: 0;
+            transition: .2s;
             position: absolute;
-            background-size: cover;
-            animation-duration: 5s;
-        }
-
-        .jq-img, .php-img {
-            width: 95px;
-            height: 107px;
-            position: absolute;
-            background-size: cover;
-            animation-duration: 5.5s;
-        }
-
-        .bs-img {
-            width: 135px;
-            height: 110px;
-            position: absolute;
-            background-size: cover;
-            animation-duration: 4.5s;
-        }
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 50%;
+            z-index: 10;
+        }        
     }
+}
 
-    // HTML, CSS, JS Logos
-    .html-img {
-        background-image: url('../imgs/html.png');
-        margin: auto;
-        top: 10%;
-        left: 10%;
+.techLogo {
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
 
-        animation-name: floating;
-    }
+.html-img, .css-img, .js-img {
+    width: 130px;
+    height: 138px;
+    position: absolute;
+    background-size: cover;
+    animation-duration: 5s;
+}
 
-    .css-img{
-        background-image: url('../imgs/css.png');
-        left: 48%;
-        top: 70%;
+.ps-img, .wp-img {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    background-size: cover;
+    animation-duration: 5s;
+}
 
-        animation-name: floating2;
-    }
+.jq-img, .php-img {
+    width: 95px;
+    height: 107px;
+    position: absolute;
+    background-size: cover;
+    animation-duration: 5.5s;
+}
+
+.bs-img {
+    width: 135px;
+    height: 110px;
+    position: absolute;
+    background-size: cover;
+    animation-duration: 4.5s;
+}
+
+
+// HTML, CSS, JS Logos
+.html-img {
+    background-image: url('../imgs/html.png');
+    margin: auto;
+    top: 10%;
+    left: 10%;
+
+    animation-name: floating;
+}
+
+.css-img{
+    background-image: url('../imgs/css.png');
+    left: 44%;
+    top: 70%;
+
+    animation-name: floating2;
+}
 
     .js-img{
         background-image: url('../imgs/js.png');
@@ -94,8 +104,8 @@
 
     .wp-img{
         background-image: url('../imgs/wp.png');
-        left: 5%;
-        top: 60%;
+        left: 7%;
+        top: 52%;
 
         animation-name: floating5;
     }
@@ -103,7 +113,7 @@
     // jQuery and PHP Logos
     .jq-img{
         background-image: url('../imgs/jq.png');
-        right: 10%;
+        right: 7%;
         top: 20%;
 
         animation-name: floating6;
@@ -124,22 +134,41 @@
 
         animation-name: floating8;
     }
-}
+
 
 // Media Queries
-@media (max-width: 1080px){
-    .technical {
-        .tech-container {
-            .circle{
-                .html-img {
-                    height: 10px;
-                    width: 10px; 
-                }
-            }
-        }
+@media (max-width: 991px){
+    .html-img, .css-img, .js-img {
+        width: 97.5px;
+        height: 103.5px;
+        transition: .2s;
     }
 
+    .ps-img, .wp-img {
+        width: 87px;
+        height: 87px;
+        transition: .2s;
+    }
+    
+    .jq-img, .php-img {
+        width: 71.5px;
+        height: 80.5px;
+        transition: .2s;
+    }
+    
+    .bs-img {
+        width: 101.5px;
+        height: 82.5px;
+        transition: .2s;
+    }
 }
+
+@media (max-width:425px){
+    .techLogo{
+        display: none;
+    }
+}
+
 
 // FLoating Animations
 @keyframes floating {

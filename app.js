@@ -66,6 +66,89 @@ previous.addEventListener('click', function(){
     projectLink.href = link[currentProject];
 })
 
+// Technical Skills Icons
+
+const htmlLogo = document.getElementById('htmlLogo');
+const psLogo = document.getElementById('psLogo');
+const cssLogo = document.getElementById('cssLogo');
+const jsLogo = document.getElementById('jsLogo');
+const jqLogo = document.getElementById('jqLogo');
+const phpLogo = document.getElementById('phpLogo');
+const bsLogo = document.getElementById('bsLogo');
+const techContent = document.getElementById('techContent');
+
+htmlLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'HTML 5';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+psLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'Adobe Photoshop';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+jsLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'JavaScript';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+wpLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'WordPress';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+jqLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'jQuery';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+cssLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'CSS 3';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+phpLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'PHP';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
+bsLogo.addEventListener('click', function(){
+    techContent.style.opacity = '0';
+
+    setTimeout(function(){
+        techContent.innerHTML = 'Bootstrap';
+        techContent.style.opacity = '1';
+    }, 200)
+})
+
 // FORM
 // const submit = document.getElementById('submit');
 
