@@ -186,6 +186,14 @@ li a:hover + .nav-effect {
     height: 120px;
     width: 213px; } }
 
+@media (max-width: 325px) {
+  #project #previous, #project #next {
+    background-color: transparent; }
+  #project button {
+    border: none; }
+  #project i {
+    font-size: 20px; } }
+
 #technical .tech-container {
   width: 100%;
   height: 500px;
@@ -363,11 +371,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -375,13 +383,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
     transform: translate(1px, 1px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -389,13 +397,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(2px, 2px); }
-  80% {
     transform: translate(2px, 1px); }
+  80% {
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -403,13 +411,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(2px, 1px); }
-  80% {
     transform: translate(1px, 1px); }
+  80% {
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -417,13 +425,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
     transform: translate(2px, 1px); }
+  40% {
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -433,11 +441,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(1px, 1px); }
   40% {
-    transform: translate(1px, 1px); }
-  60% {
     transform: translate(2px, 1px); }
+  60% {
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -445,11 +453,11 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   80% {
     transform: translate(2px, 1px); }
   100% {
@@ -459,15 +467,18 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(1px, 2px); }
-  60% {
     transform: translate(2px, 2px); }
+  60% {
+    transform: translate(2px, 1px); }
   80% {
     transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
+
+#services h1 {
+  font-family: 'Quicksand', sans-serif; }
 
 #services img {
   max-width: 90%;
@@ -487,8 +498,6 @@ li a:hover + .nav-effect {
     max-height: 80%;
     display: block;
     margin: 0 auto; }
-  #services h1 {
-    font-family: 'Quicksand', sans-serif; }
   #services h4 {
     font-size: 18px; }
   #services p {

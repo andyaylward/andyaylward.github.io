@@ -54,9 +54,23 @@
 @media (max-width: 615px) {
     #project{
         .project-gallery {
-        
+  
         height: 120px;
         width: 213px;
+        }
+    }
+}
+
+@media (max-width: 325px){
+    #project {
+        #previous, #next {
+            background-color: transparent;
+        }
+        button {
+            border: none;
+        }
+        i {
+            font-size: 20px;
         }
     }
 }
