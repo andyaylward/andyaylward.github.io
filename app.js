@@ -148,17 +148,3 @@ bsLogo.addEventListener('click', function(){
         techContent.style.opacity = '1';
     }, 200)
 })
-
-// FORM
-// const submit = document.getElementById('submit');
-
-// submit.addEventListener('click', function(){
-//     document.getElementById('bootstrapForm').submit(function (event) {
-//         event.preventDefault();
-//         alert('Form Submitted. Thanks.');
-//         var extraData = {}
-
-//                 alert('Form Submitted. Thanks.')
-
-//         })
-//     })

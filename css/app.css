@@ -277,7 +277,7 @@ li a:hover + .nav-effect {
 
 .bs-img {
   background-image: url("../imgs/bs.png");
-  left: 33%;
+  right: 52%;
   bottom: 76%;
   animation-name: floating8; }
 
@@ -304,13 +304,13 @@ li a:hover + .nav-effect {
     left: 0;
     top: 0; }
   .css-img {
-    left: 25%;
+    left: 30%;
     top: 0; }
   .js-img {
-    left: 50%;
+    right: 30%;
     top: 0; }
   .jq-img {
-    left: 75%;
+    right: 0;
     top: 0; }
   .php-img {
     left: 0;
@@ -319,10 +319,10 @@ li a:hover + .nav-effect {
     left: 25%;
     bottom: 0; }
   .ps-img {
-    left: 50%;
+    right: 30%;
     bottom: 0; }
   #bsLogo {
-    left: 75%;
+    right: 0;
     bottom: 0px; } }
 
 @media (max-width: 425px) {
@@ -351,13 +351,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -365,11 +365,11 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
-  40% {
     transform: translate(1px, 2px); }
+  40% {
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   80% {
     transform: translate(1px, 2px); }
   100% {
@@ -379,13 +379,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
     transform: translate(2px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -395,7 +395,7 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
@@ -407,7 +407,21 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
+  40% {
+    transform: translate(2px, 1px); }
+  60% {
+    transform: translate(1px, 1px); }
+  80% {
+    transform: translate(1px, 1px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+@keyframes floating6 {
+  0% {
+    transform: translate(0px, 0px); }
+  20% {
+    transform: translate(1px, 1px); }
   40% {
     transform: translate(2px, 1px); }
   60% {
@@ -417,29 +431,15 @@ li a:hover + .nav-effect {
   100% {
     transform: translate(0px, 0px); } }
 
-@keyframes floating6 {
-  0% {
-    transform: translate(0px, 0px); }
-  20% {
-    transform: translate(1px, 2px); }
-  40% {
-    transform: translate(2px, 1px); }
-  60% {
-    transform: translate(2px, 1px); }
-  80% {
-    transform: translate(1px, 1px); }
-  100% {
-    transform: translate(0px, 0px); } }
-
 @keyframes floating7 {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
     transform: translate(2px, 1px); }
   100% {
@@ -451,11 +451,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(1px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 

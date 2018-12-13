@@ -129,7 +129,7 @@
 
     .bs-img{
         background-image: url('../imgs/bs.png');
-        left: 33%;
+        right: 52%;
         bottom: 76%;
 
         animation-name: floating8;
@@ -170,17 +170,17 @@
     }
 
     .css-img {
-        left: 25%;
+        left: 30%;
         top: 0;
     }
 
     .js-img {
-        left: 50%;
+        right: 30%;
         top: 0;
     }
 
     .jq-img {
-        left: 75%;
+        right: 0;
         top:0;
     }
 
@@ -195,12 +195,12 @@
     }
 
     .ps-img {
-        left: 50%;
+        right: 30%;
         bottom: 0;
     }
 
     #bsLogo{
-        left: 75%;
+        right: 0;
         bottom: 0px;
     }
 }
@@ -214,8 +214,6 @@
             top: 55%;
             }
         }
-
-        
     }
 
     .html-img, .css-img, .js-img {
