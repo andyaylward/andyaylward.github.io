@@ -299,19 +299,20 @@ li a:hover + .nav-effect {
     height: 82.5px;
     transition: .2s; } }
 
-@media (max-width: 425px) {
+@media (max-width: 570px) {
   .techLogo {
-    display: none; } }
+    left: 0;
+    top: 0; } }
 
 @keyframes floating {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   80% {
     transform: translate(2px, 1px); }
   100% {
@@ -323,9 +324,9 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
-  60% {
     transform: translate(2px, 1px); }
+  60% {
+    transform: translate(2px, 2px); }
   80% {
     transform: translate(1px, 1px); }
   100% {
@@ -337,11 +338,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -353,7 +354,7 @@ li a:hover + .nav-effect {
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   80% {
     transform: translate(1px, 2px); }
   100% {
@@ -363,11 +364,11 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
-  60% {
     transform: translate(1px, 2px); }
+  60% {
+    transform: translate(1px, 1px); }
   80% {
     transform: translate(1px, 1px); }
   100% {
@@ -377,13 +378,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -391,13 +392,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
-  40% {
     transform: translate(2px, 2px); }
+  40% {
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -405,13 +406,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 

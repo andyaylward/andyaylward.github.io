@@ -6,7 +6,7 @@ function pageLoadBodyEffect() {
 window.onload = pageLoadBodyEffect;
 
 // About Image
-const aboutImgList = ["https://i.imgur.com/BKeZCFQ.png", "https://i.imgur.com/K9J5qE9.png", "https://images.unsplash.com/photo-1542690969-8b36d56ca4e4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e37508e6b0a3dd9b27b113e2e4b9231&auto=format&fit=crop&w=1350&q=80"]
+const aboutImgList = ["https://i.imgur.com/BKeZCFQ.png", "https://i.imgur.com/tlXNcmU.png", "https://i.imgur.com/K9J5qE9.png"]
 const aboutImg = document.getElementById('about-img');
 var currentImg = 0;
 

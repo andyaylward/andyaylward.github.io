@@ -163,9 +163,11 @@
     }
 }
 
-@media (max-width:425px){
+@media (max-width:570px){
     .techLogo{
-        display: none;
+        
+        left:0;
+        top: 0;
     }
 }
 
