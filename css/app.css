@@ -127,6 +127,9 @@ li a:hover + .nav-effect {
   width: 50%;
   max-height: 300px; }
 
+#about a {
+  color: salmon; }
+
 #loading-bar {
   width: 0px;
   height: 5px;
@@ -369,11 +372,11 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   80% {
     transform: translate(2px, 2px); }
   100% {
@@ -383,13 +386,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -397,11 +400,11 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
-  40% {
-    transform: translate(1px, 2px); }
-  60% {
     transform: translate(2px, 1px); }
+  40% {
+    transform: translate(1px, 1px); }
+  60% {
+    transform: translate(2px, 2px); }
   80% {
     transform: translate(1px, 2px); }
   100% {
@@ -411,13 +414,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -425,13 +428,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -439,13 +442,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -453,13 +456,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
-  60% {
     transform: translate(1px, 2px); }
+  60% {
+    transform: translate(1px, 1px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -467,13 +470,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
-  40% {
     transform: translate(2px, 2px); }
+  40% {
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -534,6 +537,12 @@ footer {
     color: #6e5494; }
   footer .fa-linkedin:hover {
     color: #0077b5; }
+
+.fa-angle-double-up {
+  color: salmon; }
+  .fa-angle-double-up:hover {
+    transition: .2s;
+    color: #222; }
 
 @media (max-width: 615px) {
   footer i {

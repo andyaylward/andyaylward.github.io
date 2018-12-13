@@ -32,6 +32,15 @@ footer {
     }
 }
 
+.fa-angle-double-up {
+    color: salmon;
+
+    &:hover{
+        transition: .2s;
+        color: #222;
+    }
+}
+
 @media (max-width: 615px) {
     footer{
         i {
