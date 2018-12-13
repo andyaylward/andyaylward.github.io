@@ -93,19 +93,24 @@ li a:hover + .nav-effect {
   visibility: visible;
   transform: translate(0, 0); }
 
-@media (max-width: 425px) {
+@media (max-width: 530px) {
   .banner h1 {
     font-size: 48px; }
   .banner h3 {
     font-size: 22px; }
-  nav ul {
+  .banner nav ul {
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 10px; }
-    nav ul li {
+    .banner nav ul li {
       padding-bottom: 10px; } }
+
+@media (max-width: 325px) {
+  .banner h3 {
+    font-size: 18px;
+    margin-top: -10px; } }
 
 #about .about-img {
   height: 300px;
@@ -351,9 +356,9 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(2px, 1px); }
   80% {
@@ -365,13 +370,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -381,7 +386,7 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(2px, 1px); }
   80% {
@@ -393,13 +398,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
     transform: translate(1px, 1px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -407,13 +412,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -421,13 +426,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
-  40% {
     transform: translate(2px, 1px); }
+  40% {
+    transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -435,13 +440,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -449,15 +454,45 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
+
+#services img {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: 0 auto; }
+
+#services .services-sub {
+  font-style: italic; }
+
+#services .seo, #services .web-dev, #services .cms {
+  height: 124px; }
+
+@media (max-width: 992px) {
+  #services img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin: 0 auto; }
+  #services h4 {
+    font-size: 18px; }
+  #services p {
+    font-size: 14px; } }
+
+@media (max-width: 768px) {
+  #services img {
+    max-width: 60%;
+    max-height: 60%;
+    display: block;
+    margin: 0 auto; } }
 
 #contact h1 {
   color: black; }
