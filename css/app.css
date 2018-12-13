@@ -120,6 +120,9 @@ li a:hover + .nav-effect {
   border-radius: 50%;
   transition: .2s; }
 
+#about h1 {
+  font-family: 'Quicksand', sans-serif; }
+
 #about .content {
   width: 50%;
   max-height: 300px; }
@@ -150,7 +153,8 @@ li a:hover + .nav-effect {
 #project {
   width: 100%; }
   #project h1 {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; }
   #project .project-gallery {
     height: 360px;
     width: 640px;
@@ -188,6 +192,7 @@ li a:hover + .nav-effect {
   position: relative;
   overflow: hidden; }
   #technical .tech-container h1 {
+    font-family: 'Quicksand', sans-serif;
     position: absolute;
     margin: auto;
     left: 0;
@@ -356,13 +361,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -370,9 +375,9 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
@@ -384,13 +389,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
-    transform: translate(2px, 1px); }
-  60% {
-    transform: translate(2px, 1px); }
-  80% {
     transform: translate(1px, 2px); }
+  40% {
+    transform: translate(1px, 2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  80% {
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -398,13 +403,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(2px, 1px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -412,13 +417,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -426,13 +431,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(1px, 2px); }
-  80% {
     transform: translate(2px, 1px); }
+  80% {
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -440,13 +445,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   60% {
     transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -454,13 +459,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
     transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -482,6 +487,8 @@ li a:hover + .nav-effect {
     max-height: 80%;
     display: block;
     margin: 0 auto; }
+  #services h1 {
+    font-family: 'Quicksand', sans-serif; }
   #services h4 {
     font-size: 18px; }
   #services p {
@@ -495,7 +502,8 @@ li a:hover + .nav-effect {
     margin: 0 auto; } }
 
 #contact h1 {
-  color: black; }
+  color: black;
+  font-family: 'Quicksand', sans-serif; }
 
 footer {
   color: white;
