@@ -260,7 +260,7 @@ li a:hover + .nav-effect {
 .wp-img {
   background-image: url("../imgs/wp.png");
   left: 7%;
-  top: 52%;
+  bottom: 30%;
   animation-name: floating5; }
 
 .jq-img {
@@ -278,7 +278,7 @@ li a:hover + .nav-effect {
 .bs-img {
   background-image: url("../imgs/bs.png");
   left: 33%;
-  top: 7%;
+  bottom: 76%;
   animation-name: floating8; }
 
 @media (max-width: 991px) {
@@ -300,21 +300,64 @@ li a:hover + .nav-effect {
     transition: .2s; } }
 
 @media (max-width: 570px) {
-  .techLogo {
+  .html-img {
     left: 0;
-    top: 0; } }
+    top: 0; }
+  .css-img {
+    left: 25%;
+    top: 0; }
+  .js-img {
+    left: 50%;
+    top: 0; }
+  .jq-img {
+    left: 75%;
+    top: 0; }
+  .php-img {
+    left: 0;
+    bottom: 0; }
+  .wp-img {
+    left: 25%;
+    bottom: 0; }
+  .ps-img {
+    left: 50%;
+    bottom: 0; }
+  #bsLogo {
+    left: 75%;
+    bottom: 0px; } }
+
+@media (max-width: 425px) {
+  #technical .tech-container {
+    height: 300px; }
+    #technical .tech-container #techContent {
+      top: 55%; }
+  .html-img, .css-img, .js-img {
+    width: 48.75px;
+    height: 51.75px;
+    transition: .2s; }
+  .ps-img, .wp-img {
+    width: 43.5px;
+    height: 43.5px;
+    transition: .2s; }
+  .jq-img, .php-img {
+    width: 35.75px;
+    height: 40.25px;
+    transition: .2s; }
+  .bs-img {
+    width: 50.75px;
+    height: 41.25px;
+    transition: .2s; } }
 
 @keyframes floating {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   60% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -322,13 +365,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
-    transform: translate(2px, 1px); }
-  60% {
-    transform: translate(2px, 2px); }
-  80% {
     transform: translate(1px, 1px); }
+  40% {
+    transform: translate(1px, 2px); }
+  60% {
+    transform: translate(2px, 1px); }
+  80% {
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -336,13 +379,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -350,13 +393,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(2px, 2px); }
-  80% {
     transform: translate(1px, 2px); }
+  80% {
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -364,13 +407,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
     transform: translate(1px, 2px); }
+  40% {
+    transform: translate(2px, 1px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -378,13 +421,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -392,13 +435,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
     transform: translate(1px, 1px); }
-  60% {
-    transform: translate(2px, 2px); }
-  80% {
+  40% {
     transform: translate(1px, 2px); }
+  60% {
+    transform: translate(1px, 1px); }
+  80% {
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -406,13 +449,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
