@@ -10,7 +10,6 @@ const aboutImgList = [
     "https://i.imgur.com/BKeZCFQ.png", 
     "https://i.imgur.com/tlXNcmU.png", 
     "https://i.imgur.com/K9J5qE9.png",
-    "https://i.imgur.com/6xNMeC5.jpg",
 ]
 const aboutImg = document.getElementById('about-img');
 var currentImg = 0;
