@@ -31,6 +31,7 @@ const projectGallery = document.getElementById('project-gallery');
 const projectHeading = document.getElementById('projectHeading');
 const projectInfo = document.getElementById('projectInfo');
 const projectLink = document.getElementById('projectLink');
+const projectLink2 = document.getElementById('projectLink2');
 
 const projects = [
     'response.gif',
@@ -95,6 +96,7 @@ next.addEventListener('click', function(){
     projectHeading.innerHTML = heading[currentProject];
     projectInfo.innerHTML = description[currentProject];
     projectLink.href = link[currentProject];
+    projectLink2.href = link[currentProject];
 })
 
 previous.addEventListener('click', function(){
@@ -108,6 +110,7 @@ previous.addEventListener('click', function(){
     projectHeading.innerHTML = heading[currentProject];
     projectInfo.innerHTML = description[currentProject];
     projectLink.href = link[currentProject];
+    projectLink2.href = link[currentProject];
 })
 
 // Technical Skills Icons
