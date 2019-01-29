@@ -7,9 +7,9 @@ window.onload = pageLoadBodyEffect;
 
 // About Image
 const aboutImgList = [
-    "https://i.imgur.com/BKeZCFQ.png", 
-    "https://i.imgur.com/tlXNcmU.png", 
-    "https://i.imgur.com/K9J5qE9.png",
+    "./imgs/andy.png", 
+    "./imgs/andy2.png", 
+    "./imgs/andy3.png",
 ]
 const aboutImg = document.getElementById('about-img');
 var currentImg = 0;
