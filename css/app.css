@@ -239,19 +239,23 @@ li a:hover + .nav-effect {
   background-size: cover;
   animation-duration: 5s; }
 
-.jq-img, .php-img {
+.drupal-img, .php-img {
   width: 95px;
   height: 107px;
   position: absolute;
   background-size: cover;
-  animation-duration: 5.5s; }
+  animation-duration: 5.5s;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .bs-img {
   width: 135px;
   height: 110px;
   position: absolute;
   background-size: cover;
-  animation-duration: 4.5s; }
+  animation-duration: 4.5s;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .html-img {
   background-image: url("../imgs/html.png");
@@ -284,8 +288,8 @@ li a:hover + .nav-effect {
   bottom: 30%;
   animation-name: floating5; }
 
-.jq-img {
-  background-image: url("../imgs/jq.png");
+.drupal-img {
+  background-image: url("../imgs/drupal.png");
   right: 7%;
   top: 20%;
   animation-name: floating6; }
@@ -311,7 +315,7 @@ li a:hover + .nav-effect {
     width: 87px;
     height: 87px;
     transition: .2s; }
-  .jq-img, .php-img {
+  .drupal-img, .php-img {
     width: 71.5px;
     height: 80.5px;
     transition: .2s; }
@@ -325,12 +329,12 @@ li a:hover + .nav-effect {
     left: 0;
     top: 0; }
   .css-img {
-    left: 30%;
+    left: 27%;
     top: 0; }
   .js-img {
-    right: 30%;
+    left: 55%;
     top: 0; }
-  .jq-img {
+  .drupal-img {
     right: 0;
     top: 0; }
   .php-img {
@@ -340,7 +344,7 @@ li a:hover + .nav-effect {
     left: 25%;
     bottom: 0; }
   .ps-img {
-    right: 30%;
+    right: 27.5%;
     bottom: 0; }
   #bsLogo {
     right: 0;
@@ -359,7 +363,7 @@ li a:hover + .nav-effect {
     width: 43.5px;
     height: 43.5px;
     transition: .2s; }
-  .jq-img, .php-img {
+  .drupal-img, .php-img {
     width: 35.75px;
     height: 40.25px;
     transition: .2s; }
@@ -374,11 +378,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 1px); }
   60% {
     transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -386,13 +390,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   40% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(2px, 1px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -402,11 +406,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(2px, 1px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(2px, 2px); }
-  80% {
     transform: translate(1px, 2px); }
+  80% {
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -414,13 +418,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(2px, 1px); }
-  60% {
-    transform: translate(1px, 2px); }
-  80% {
     transform: translate(1px, 1px); }
+  60% {
+    transform: translate(2px, 1px); }
+  80% {
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -428,13 +432,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   40% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
-  80% {
     transform: translate(2px, 2px); }
+  80% {
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -442,13 +446,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -456,13 +460,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -470,13 +474,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 2px); }
-  40% {
     transform: translate(1px, 1px); }
+  40% {
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(2px, 2px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
