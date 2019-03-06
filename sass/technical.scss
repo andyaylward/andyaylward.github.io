@@ -51,12 +51,14 @@
     animation-duration: 5s;
 }
 
-.jq-img, .php-img {
+.drupal-img, .php-img {
     width: 95px;
     height: 107px;
     position: absolute;
     background-size: cover;
     animation-duration: 5.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bs-img {
@@ -65,6 +67,8 @@
     position: absolute;
     background-size: cover;
     animation-duration: 4.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -86,55 +90,55 @@
     animation-name: floating2;
 }
 
-    .js-img{
-        background-image: url('../imgs/js.png');
-        left: 57.5%;
-        top: 5%;
+.js-img{
+    background-image: url('../imgs/js.png');
+    left: 57.5%;
+    top: 5%;
 
-        animation-name: floating3;
-    }
+    animation-name: floating3;
+}
 
-    // PhotoShop and WordPress Logos
-    .ps-img{
-        background-image: url('../imgs/ps.png');   
-        right: 15%;
-        bottom: 15%;
+// PhotoShop and WordPress Logos
+.ps-img{
+    background-image: url('../imgs/ps.png');   
+    right: 15%;
+    bottom: 15%;
 
-        animation-name: floating4;
-    }
+    animation-name: floating4;
+}
 
-    .wp-img{
-        background-image: url('../imgs/wp.png');
-        left: 7%;
-        bottom: 30%;
+.wp-img{
+    background-image: url('../imgs/wp.png');
+    left: 7%;
+    bottom: 30%;
 
-        animation-name: floating5;
-    }
+    animation-name: floating5;
+}
 
-    // jQuery and PHP Logos
-    .jq-img{
-        background-image: url('../imgs/jq.png');
-        right: 7%;
-        top: 20%;
+// Drupal and PHP Logos
+.drupal-img{
+    background-image: url('../imgs/drupal.png');
+    right: 7%;
+    top: 20%;
 
-        animation-name: floating6;
-    }
-    
-    .php-img{
-        background-image: url('../imgs/php.png');
-        left: 25%;
-        bottom: 5%;
+    animation-name: floating6;
+}
 
-        animation-name: floating7;
-    }
+.php-img{
+    background-image: url('../imgs/php.png');
+    left: 25%;
+    bottom: 5%;
 
-    .bs-img{
-        background-image: url('../imgs/bs.png');
-        right: 52%;
-        bottom: 76%;
+    animation-name: floating7;
+}
 
-        animation-name: floating8;
-    }
+.bs-img{
+    background-image: url('../imgs/bs.png');
+    right: 52%;
+    bottom: 76%;
+
+    animation-name: floating8;
+}
 
 
 // Media Queries
@@ -151,7 +155,7 @@
         transition: .2s;
     }
     
-    .jq-img, .php-img {
+    .drupal-img, .php-img {
         width: 71.5px;
         height: 80.5px;
         transition: .2s;
@@ -171,16 +175,16 @@
     }
 
     .css-img {
-        left: 30%;
+        left: 27%;
         top: 0;
     }
 
     .js-img {
-        right: 30%;
+        left: 55%;
         top: 0;
     }
 
-    .jq-img {
+    .drupal-img {
         right: 0;
         top:0;
     }
@@ -196,7 +200,7 @@
     }
 
     .ps-img {
-        right: 30%;
+        right: 27.5%;
         bottom: 0;
     }
 
@@ -229,7 +233,7 @@
         transition: .2s;
     }
     
-    .jq-img, .php-img {
+    .drupal-img, .php-img {
         width: 35.75px;
         height: 40.25px;
         transition: .2s;

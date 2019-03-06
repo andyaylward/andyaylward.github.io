@@ -114,8 +114,8 @@
         }
     }
 
-    .jq-img{
-        background-image: url('../imgs/jq.png');
+    .drupal-img{
+        background-image: url('../imgs/drupal.png');
         left: 10px;
         top: 70%;
     }
@@ -132,7 +132,7 @@
         bottom: -25px;
     }
 
-    .html-img, .ps-img, .placeholder3, .css-img, .js-img, .php-img, .wp-img, .jq-img {
+    .html-img, .ps-img, .placeholder3, .css-img, .js-img, .php-img, .wp-img, .drupal-img {
         &:hover {
             animation-name: floating;
             animation-iteration-count: infinite;
