@@ -112,7 +112,7 @@ const link = [
   // FIN GALLERY
     'https://fin-gallery.ca/',
   // FIRST CHOICE NON-MED
-    'https://fcnmhctest-kknonzwmxf.now.sh',
+    'https://www.firstchoicehomecare.ca',
   // PET PROJECT ANIMAL ADOPTION
     'https://andy-aylward-cpnt-assignment-4-fpswjrnnoq.now.sh', 
   // CANADA QUIZ
