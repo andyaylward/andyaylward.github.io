@@ -19,7 +19,7 @@
         }
 
         a:hover {
-            letter-spacing: .5px;
+            transform: scale(1.05);
             transition: .2s;
         }
     }
@@ -51,7 +51,7 @@ nav {
         color: salmon;
         transition: .2s;
         text-decoration: none;
-        letter-spacing: .5px;
+        transform: scale(1.25);
     }
 }
 
