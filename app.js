@@ -5,11 +5,26 @@ function pageLoadBodyEffect() {
 }
 window.onload = pageLoadBodyEffect;
 
+// IMG Pre-Loading
+var preload = new Array();
+
+preload[0] = "./imgs/andy.png";
+preload[1] = "./imgs/andy2.png";
+preload[2] = "./imgs/andy3.png";
+preload[3] = "./imgs/andy4.png";
+
+var loadedimages = new Array();
+for(var i=0; i<preload.length; i++) {
+loadedimages[i] = new Image();
+loadedimages[i].src = preload[i];
+}
+
 // About Image
 const aboutImgList = [
     "./imgs/andy.png", 
     "./imgs/andy2.png", 
     "./imgs/andy3.png",
+    "./imgs/andy4.png",
 ]
 const aboutImg = document.getElementById('about-img');
 var currentImg = 0;

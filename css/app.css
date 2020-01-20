@@ -56,7 +56,7 @@ main {
       color: white;
       transition: .2s; }
     .banner .content a:hover {
-      letter-spacing: .5px;
+      transform: scale(1.05);
       transition: .2s; }
   .banner h1 {
     font-size: 60px;
@@ -78,7 +78,7 @@ nav {
     color: salmon;
     transition: .2s;
     text-decoration: none;
-    letter-spacing: .5px; }
+    transform: scale(1.25); }
 
 li .nav-effect {
   background-color: salmon;
@@ -378,11 +378,11 @@ li a:hover + .nav-effect {
   20% {
     transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   60% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -390,13 +390,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -404,13 +404,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
     transform: translate(1px, 1px); }
   60% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -418,13 +418,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   40% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   60% {
     transform: translate(1px, 2px); }
   80% {
-    transform: translate(2px, 1px); }
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -432,13 +432,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
     transform: translate(1px, 1px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -450,9 +450,9 @@ li a:hover + .nav-effect {
   40% {
     transform: translate(1px, 1px); }
   60% {
-    transform: translate(2px, 1px); }
+    transform: translate(2px, 2px); }
   80% {
-    transform: translate(1px, 1px); }
+    transform: translate(1px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -460,13 +460,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 1px); }
   40% {
     transform: translate(1px, 2px); }
   60% {
-    transform: translate(1px, 1px); }
-  80% {
     transform: translate(1px, 2px); }
+  80% {
+    transform: translate(1px, 1px); }
   100% {
     transform: translate(0px, 0px); } }
 
@@ -474,13 +474,13 @@ li a:hover + .nav-effect {
   0% {
     transform: translate(0px, 0px); }
   20% {
-    transform: translate(1px, 2px); }
-  40% {
     transform: translate(1px, 1px); }
+  40% {
+    transform: translate(2px, 2px); }
   60% {
     transform: translate(2px, 2px); }
   80% {
-    transform: translate(1px, 2px); }
+    transform: translate(2px, 2px); }
   100% {
     transform: translate(0px, 0px); } }
 
